@@ -1,0 +1,41 @@
+.catalog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--blue-color);
+    padding: 10px;
+    width: calc(100% - 40px);
+    max-width: 746px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    .catalog-card-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: calc(100% - 20px);
+        }
+        @media(min-width: 1200px){
+            img {
+                width: 391px;
+                height: 292px;
+            } 
+        }
+    }
+    .catalog-card-name {
+        h3 {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            color: var(--gray-text-color);
+        }
+        @media(min-width: 1200px){
+            h3 {
+                font-size: 20px;
+                line-height: 30px;
+            } 
+        }
+    }
+}

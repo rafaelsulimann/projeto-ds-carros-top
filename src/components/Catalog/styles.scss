@@ -1,0 +1,16 @@
+.catalog-title {
+    margin: 25px 0px;
+    text-align: center;
+    h2 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: var(--gray-text-color);
+    }
+    @media(min-width: 1200px) {
+        h2 {
+            font-size: 32px;
+            line-height: 48px;
+        }  
+    }
+}

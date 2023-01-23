@@ -1,0 +1,13 @@
+.header-title {
+    h1{
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+    }
+    @media(min-width: 1200px){
+        h1 {
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+}
